@@ -10,9 +10,7 @@ import (
 )
 
 var (
-	config    = os.Getenv("HOME") + "/.lmsj"
-	kanjiPath string
-	glossPath string
+	config = os.Getenv("HOME") + "/.lmsj"
 )
 
 type kanjiMap map[string]map[string][]string
@@ -24,33 +22,20 @@ type glossary struct {
 }
 
 func main() {
-	conf, err := readFile(config)
+	kanjiPath, glossPath, err := loadConf(config)
 	if err != nil {
 		log.Fatal("reading config:", err)
 		return
 	}
-	setConf(conf)
-	log.Println("kanjiPath:", kanjiPath)
-	log.Println("glossPath:", glossPath)
+	kMap, gMap := parseJson(kanjiPath, glossPath)
+	log.Println(kMap)
+	log.Println(gMap)
 }
 
-func setConf(confFile []string) {
-	for _, conf := range confFile {
-		c := strings.Split(conf, "=")
-		if c[0] == "kanji" {
-			kanjiPath = c[1]
-		} else if c[0] == "glossary" {
-			glossPath = c[1]
-		} else {
-			log.Println("Could not recognize filetype:", c[0])
-		}
-	}
-}
-
-func readFile(path string) ([]string, error) {
+func loadConf(path string) (string, string, error) {
 	file, err := os.Open(path)
 	if err != nil {
-		return nil, err
+		return "", "", err
 	}
 	defer func() {
 		if err := file.Close(); err != nil {
@@ -63,11 +48,26 @@ func readFile(path string) ([]string, error) {
 	for scanner.Scan() {
 		lines = append(lines, scanner.Text())
 	}
-	return lines, scanner.Err()
+	kanji, gloss := getPaths(lines)
+	return kanji, gloss, scanner.Err()
 }
 
-func parseJson() {
-	kanji, err := os.Open("kanji.json")
+func getPaths(confFile []string) (kanji, gloss string) {
+	for _, conf := range confFile {
+		c := strings.Split(conf, "=")
+		if c[0] == "kanji" {
+			kanji = c[1]
+		} else if c[0] == "glossary" {
+			gloss = c[1]
+		} else {
+			log.Println("Could not recognize filetype:", c[0])
+		}
+	}
+	return
+}
+
+func parseJson(kanjiPath, glossPath string) (kMap kanjiMap, gMap glossMap) {
+	kanji, err := os.Open(kanjiPath)
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -77,7 +77,7 @@ func parseJson() {
 		}
 	}()
 
-	gloss, err := os.Open("glossary.json")
+	gloss, err := os.Open(glossPath)
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -89,9 +89,6 @@ func parseJson() {
 
 	kDec := json.NewDecoder(kanji)
 	gDec := json.NewDecoder(gloss)
-
-	var kMap kanjiMap
-	var gMap glossMap
 
 	for {
 		if err := kDec.Decode(&kMap); err == io.EOF {
@@ -107,7 +104,5 @@ func parseJson() {
 			log.Fatal(err)
 		}
 	}
-
-	log.Println("kMap:", kMap)
-	log.Println("gMap:", gMap)
+	return
 }
