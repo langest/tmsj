@@ -1,4 +1,4 @@
-lmsj - Learn me some Japanese
+tmsj - Teach me some Japanese
 =============================
 
 A simple go program that parses a json for words or phrases you want to learn and outputs them into stdout.
