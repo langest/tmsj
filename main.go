@@ -1,17 +1,18 @@
 package main
 
 import (
+	"bufio"
 	"encoding/json"
-	"fmt"
 	"io"
 	"log"
 	"os"
 )
 
-func main() {
-	fmt.Println("Hello")
-	parseJson()
-}
+var (
+	config    = os.Getenv("HOME") + "/.lmsj"
+	kanjiPath string
+	glossPath string
+)
 
 type kanjiMap map[string]map[string][]string
 type glossMap map[string]glossary
@@ -19,6 +20,38 @@ type glossMap map[string]glossary
 type glossary struct {
 	Kanji       string `json:kanji`
 	Translation string `json:translation`
+}
+
+func main() {
+	conf, err := readFile(config)
+	if err != nil {
+		log.Fatal("reading config:", err)
+		return
+	}
+	setConf(conf)
+}
+
+func setConf(confFile []string) {
+	log.Println(confFile)
+}
+
+func readFile(path string) ([]string, error) {
+	file, err := os.Open(path)
+	if err != nil {
+		return nil, err
+	}
+	defer func() {
+		if err := file.Close(); err != nil {
+			panic(err)
+		}
+	}()
+	scanner := bufio.NewScanner(file)
+
+	var lines []string
+	for scanner.Scan() {
+		lines = append(lines, scanner.Text())
+	}
+	return lines, scanner.Err()
 }
 
 func parseJson() {
