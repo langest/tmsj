@@ -13,10 +13,17 @@ var (
 	config = os.Getenv("HOME") + "/.lmsj"
 )
 
-type kanjiMap map[string]map[string][]string
-type glossMap map[string]glossary
+type kanjiMap []kanji
+type glossMap []glossary
+
+type kanji struct {
+	Kanji         string   `json:kanji`
+	Pronunciation []string `json:pronunciation`
+	Translation   []string `json:translation`
+}
 
 type glossary struct {
+	HiraKata    string `json:hirakata`
 	Kanji       string `json:kanji`
 	Translation string `json:translation`
 }
