@@ -6,6 +6,7 @@ import (
 	"io"
 	"log"
 	"os"
+	"strings"
 )
 
 var (
@@ -29,10 +30,21 @@ func main() {
 		return
 	}
 	setConf(conf)
+	log.Println("kanjiPath:", kanjiPath)
+	log.Println("glossPath:", glossPath)
 }
 
 func setConf(confFile []string) {
-	log.Println(confFile)
+	for _, conf := range confFile {
+		c := strings.Split(conf, "=")
+		if c[0] == "kanji" {
+			kanjiPath = c[1]
+		} else if c[0] == "glossary" {
+			glossPath = c[1]
+		} else {
+			log.Println("Could not recognize filetype:", c[0])
+		}
+	}
 }
 
 func readFile(path string) ([]string, error) {
