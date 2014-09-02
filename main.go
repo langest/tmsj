@@ -24,21 +24,21 @@ type glossary struct {
 func parseJson() {
 	kanji, err := os.Open("kanji.json")
 	if err != nil {
-		panic(err)
+		log.Fatal(err)
 	}
 	defer func() {
 		if err := kanji.Close(); err != nil {
-			panic(err)
+			log.Fatal(err)
 		}
 	}()
 
 	gloss, err := os.Open("glossary.json")
 	if err != nil {
-		panic(err)
+		log.Fatal(err)
 	}
 	defer func() {
 		if err := gloss.Close(); err != nil {
-			panic(err)
+			log.Fatal(err)
 		}
 	}()
 
