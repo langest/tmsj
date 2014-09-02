@@ -1,5 +1,6 @@
-{
-	"次": {
+[
+	{
+		"kanji": "次",
 		"pronunciation": [
 				"つぎ"
 			],
@@ -7,7 +8,8 @@
 			"次: つぎ - next"
 			]
 	},
-	"休": {
+	{
+		"kanji": "休",
 		"pronunciation": [
 			"やす"
 		],
@@ -16,4 +18,4 @@
 			"休み: やすみ - holiday; absence"
 		]
 	}
-}
+]
