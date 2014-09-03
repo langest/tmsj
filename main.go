@@ -6,8 +6,10 @@ import (
 	"fmt"
 	"io"
 	"log"
+	"math/rand"
 	"os"
 	"strings"
+	"time"
 )
 
 var (
@@ -36,7 +38,7 @@ func main() {
 		return
 	}
 	kMap, gMap := parseJson(kanjiPath, glossPath)
-	printRandomFact(kMap, gMap)
+	printOneRandom(kMap, gMap)
 }
 
 func loadConf(path string) (string, string, error) {
@@ -72,10 +74,14 @@ func getPaths(confFile []string) (kanji, gloss string) {
 	}
 	return
 }
-func printRandomFact(kMap kanjiMap, gMap glossMap) {
-	//TODO Random the index used in the maps
-	//TODO Format the strings properly
-	fmt.Println(kMap[0], gMap[0])
+func printOneRandom(kMap kanjiMap, gMap glossMap) {
+	//TODO format the output prettier
+	rnd := rand.New(rand.NewSource(time.Now().UnixNano()))
+	fmt.Println("Some Japanese for you to enjoy!")
+	fmt.Println("-------------Kanji-------------")
+	fmt.Println(kMap[rnd.Intn(len(kMap))])
+	fmt.Println("-------and some glossary-------")
+	fmt.Println(gMap[rnd.Intn(len(gMap))])
 
 }
 
