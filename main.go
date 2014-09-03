@@ -3,6 +3,7 @@ package main
 import (
 	"bufio"
 	"encoding/json"
+	"fmt"
 	"io"
 	"log"
 	"os"
@@ -72,6 +73,9 @@ func getPaths(confFile []string) (kanji, gloss string) {
 	return
 }
 func printRandomFact(kMap kanjiMap, gMap glossMap) {
+	//TODO Random the index used in the maps
+	//TODO Format the strings properly
+	fmt.Println(kMap[0], gMap[0])
 
 }
 
