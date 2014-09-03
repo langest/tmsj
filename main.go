@@ -10,7 +10,7 @@ import (
 )
 
 var (
-	config = os.Getenv("HOME") + "/.lmsj"
+	config = os.Getenv("HOME") + "/.tmsj"
 )
 
 type kanjiMap []kanji
@@ -35,8 +35,6 @@ func main() {
 		return
 	}
 	kMap, gMap := parseJson(kanjiPath, glossPath)
-	log.Println(kMap)
-	log.Println(gMap)
 }
 
 func loadConf(path string) (string, string, error) {
