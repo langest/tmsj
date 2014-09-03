@@ -35,6 +35,7 @@ func main() {
 		return
 	}
 	kMap, gMap := parseJson(kanjiPath, glossPath)
+	printRandomFact(kMap, gMap)
 }
 
 func loadConf(path string) (string, string, error) {
@@ -69,6 +70,9 @@ func getPaths(confFile []string) (kanji, gloss string) {
 		}
 	}
 	return
+}
+func printRandomFact(kMap kanjiMap, gMap glossMap) {
+
 }
 
 func parseJson(kanjiPath, glossPath string) (kMap kanjiMap, gMap glossMap) {
