@@ -9,5 +9,5 @@ It will probably work for most languages since you can just change the content o
 TODO
 ====
 Add flags to run different functionalities of the program such as:
-- Add support to repeatedly printing to file so that integration with conky scripts are possible
+- Add support to printing to file at given intervals so that integration with conky scripts are possible
 - Flags that tell how many facts you want and which type
