@@ -78,25 +78,28 @@ func printOneRandom(kMap kanjiMap, gMap glossMap) {
 	//TODO format the output prettier
 	rnd := rand.New(rand.NewSource(time.Now().UnixNano()))
 	fmt.Println("Some Japanese for you to enjoy!")
-	fmt.Println("-------------Kanji-------------")
+	fmt.Println("\n-------------Kanji-------------")
 	kEntry := kMap[rnd.Intn(len(kMap))]
 	if kEntry.Kanji != "" {
 		fmt.Println(kEntry.Kanji)
 
+		fmt.Println("Pronunciations")
 		if len(kEntry.Pronunciation) > 0 {
 			for _, p := range kEntry.Pronunciation {
 				fmt.Println(p)
 			}
 		}
+		fmt.Println("Translations")
 		if len(kEntry.Translation) > 0 {
 			for _, t := range kEntry.Translation {
 				fmt.Println(t)
 			}
 		}
 	}
-	fmt.Println("-------and some glossary-------")
+	fmt.Println("\n-------and some glossary-------")
 	gEntry := gMap[rnd.Intn(len(gMap))]
 	fmt.Println(gEntry)
+	fmt.Println()
 
 }
 
