@@ -6,6 +6,8 @@ I will primarily use this to learn Japanese by running it periodically somehow. 
 
 It will probably work for most languages since you can just change the content of the json files.
 
+The kanji meanings I use here is not always both on-yomi and kun-yomi. I mearly use the ones that I should learn in my Japanese course.
+
 Install instructions
 ====================
 - Compile with go install.
