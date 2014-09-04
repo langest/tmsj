@@ -6,6 +6,17 @@ I will primarily use this to learn Japanese by running it periodically somehow. 
 
 It will probably work for most languages since you can just change the content of the json files.
 
+Install instructions
+====================
+- Compile with go install.
+- Add a file .tmsj in your home dir that looks the following:
+```
+kanji=/path/to/kanji.json
+glossary=/path/to/glossary.json
+
+```
+- Run with `tmsj`
+
 TODO
 ====
 Add flags to run different functionalities of the program such as:
