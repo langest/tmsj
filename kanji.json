@@ -35,7 +35,74 @@
 			""
 		],
 		"translation": [
-			": -",
+			": -"
+		]
+	},
+	{
+		"kanji": "年",
+		"pronunciation": [
+			"ねん",
+			"とし"
+		],
+		"translation": [
+			"三年生: さねんせい - third-year student",
+			"来年: らいねん - next year",
+			"年: とし - year",
+			"今年: ことし - this year"
+		]
+	},
+	{
+		"kanji": "売",
+		"pronunciation": [
+			"う"
+		],
+		"translation": [
+			"売る: うる - to sell"
+		]
+	},
+	{
+		"kanji": "買",
+		"pronunciation": [
+			"か"
+		],
+		"translation": [
+			"買う: かう - to buy"
+		]
+	},
+	{
+		"kanji": "町",
+		"pronunciation": [
+			"まち"
+		],
+		"translation": [
+			"町: まち - town"
+		]
+	},
+	{
+		"kanji": "長",
+		"pronunciation": [
+			"ながい"
+		],
+		"translation": [
+			"長い: ながい - long"
+		]
+	},
+	{
+		"kanji": "道",
+		"pronunciation": [
+			"みち"
+		],
+		"translation": [
+			"道: みち - road"
+		]
+	},
+	{
+		"kanji": "雪",
+		"pronunciation": [
+			"ゆき"
+		],
+		"translation": [
+			"雪: ゆき - snow"
 		]
 	},
 	{
@@ -44,7 +111,7 @@
 			"た"
 		],
 		"translation": [
-			"立つ: たつ - to stand",
+			"立つ: たつ - to stand"
 		]
 	},
 	{
@@ -53,7 +120,7 @@
 			"じ"
 		],
 		"translation": [
-			"自分: じぶん - one self",
+			"自分: じぶん - one self"
 		]
 	},
 	{
@@ -62,7 +129,7 @@
 			"よる"
 		],
 		"translation": [
-			"夜: よる - night",
+			"夜: よる - night"
 		]
 	},
 	{
