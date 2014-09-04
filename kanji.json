@@ -1,5 +1,15 @@
 [
 	{
+		"kanji": "一",
+		"pronunciation": [
+			"いち"
+		],
+		"translation": [
+			"一: いち - one",
+			"一時: いちじ - one o'clock"
+		]
+	},
+	{
 		"kanji": "次",
 		"pronunciation": [
 				"つぎ"
@@ -16,6 +26,63 @@
 		"translation": [
 			"休む: やすむ - to be absent; to rest",
 			"休み: やすみ - holiday; absence"
+		]
+	},
+{"WORKING HERE": "TODO"},
+	{
+		"kanji": "",
+		"pronunciation": [
+			""
+		],
+		"translation": [
+			": -",
+		]
+	},
+	{
+		"kanji": "立",
+		"pronunciation": [
+			"た"
+		],
+		"translation": [
+			"立つ: たつ - to stand",
+		]
+	},
+	{
+		"kanji": "自",
+		"pronunciation": [
+			"じ"
+		],
+		"translation": [
+			"自分: じぶん - one self",
+		]
+	},
+	{
+		"kanji": "夜",
+		"pronunciation": [
+			"よる"
+		],
+		"translation": [
+			"夜: よる - night",
+		]
+	},
+	{
+		"kanji": "朝",
+		"pronunciation": [
+			"あさ"
+		],
+		"translation": [
+			"朝: あさ- morning",
+			"今朝: けさ - this morning"
+		]
+	},
+	{
+		"kanji": "持",
+		"pronunciation": [
+			"も"
+		],
+		"translation": [
+			"持つ: もつ - to hold",
+			"持ってくる: もってくる - to bring"
 		]
 	}
 ]
