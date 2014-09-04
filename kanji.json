@@ -39,12 +39,77 @@
 		]
 	},
 	{
-		"kanji": "",
+		"kanji": "間",
 		"pronunciation": [
-			""
+			"かん",
+			"あいだ"
 		],
 		"translation": [
-			": -"
+			"時間: じかん - time",
+			"二時間: にじかん - two hours",
+			"間: あいだ - between"
+		]
+	},
+	{
+		"kanji": "家",
+		"pronunciation": [
+			"いえ"
+		],
+		"translation": [
+			"家: いえ - house"
+		]
+	},
+	{
+		"kanji": "話",
+		"pronunciation": [
+			"わ",
+			"はな",
+			"はなし"
+		],
+		"translation": [
+			"電話: でんわ - telephone",
+			"話す: はなす	- to speak",
+			"話: はなし - talk; story"
+		]
+	},
+	{
+		"kanji": "少",
+		"pronunciation": [
+			"すこ"
+		],
+		"translation": [
+			"少し: すこし - little"
+		]
+	},
+	{
+		"kanji": "古",
+		"pronunciation": [
+			"ふるい"
+		],
+		"translation": [
+			"古い: ふるい - old (for things)"
+		]
+	},
+	{
+		"kanji": "知",
+		"pronunciation": [
+			"し"
+		],
+		"translation": [
+			"知る: しる - to know"
+		]
+	},
+	{
+		"kanji": "来",
+		"pronunciation": [
+			"くる",
+			"きます",
+			"こない"
+		],
+		"translation": [
+			"来る: くる - to come",
+			"来ます: きます - to come",
+			"来ない: こない - not to come"
 		]
 	},
 	{
