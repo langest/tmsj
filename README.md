@@ -24,3 +24,4 @@ Add flags to run different functionalities of the program such as:
 - Flags that tell how many facts you want and which type
 - Write script and settings so that conky can display output from the program
 - Add declension to verbs and adjectives in glossary
+- Add support for reading glossary and kanji from multiple files
