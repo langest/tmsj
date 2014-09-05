@@ -22,7 +22,7 @@ glossary=/path/to/glossary.json
 TODO
 ====
 Add flags to run different functionalities of the program such as:
-- Add support to printing to file at given intervals so that integration with conky scripts are possible
+- Write conky integration
 - Flags that tell how many facts you want and which type
 - Write script and settings so that conky can display output from the program
 - Add declension to verbs and adjectives in glossary
