@@ -111,7 +111,6 @@ func printOneRandom(kMap kanjiMap, gMap glossMap) {
 	gEntry := gMap[rnd.Intn(len(gMap))]
 	fmt.Println(gEntry)
 	fmt.Println()
-
 }
 
 func printForConky(conkyRoot string, kMap kanjiMap, gMap glossMap) {
@@ -134,7 +133,6 @@ func printForConky(conkyRoot string, kMap kanjiMap, gMap glossMap) {
 	gEntry := gMap[rnd.Intn(len(gMap))]
 	fmt.Println(gEntry)
 	fmt.Println()
-
 }
 
 func parseJson(kanjiPath, glossPath string) (kMap kanjiMap, gMap glossMap) {
