@@ -36,20 +36,20 @@ func init() {
 }
 
 func main() {
-	kanjiPath, glossPath, err := loadConf(config)
+	kanjiPath, glossPath, conkyRoot, err := loadConf(config)
 	if err != nil {
 		log.Fatal("reading config:", err)
 		return
 	}
 	kMap, gMap := parseJson(kanjiPath, glossPath)
-	if !*forConky {
-		printOneRandom(kMap, gMap)
+	if *forConky {
+		printForConky(conkyRoot, kMap, gMap)
 	} else {
-		printForConky(kMap, gMap)
+		printOneRandom(kMap, gMap)
 	}
 }
 
-func loadConf(path string) (string, string, error) {
+func loadConf(path string) (string, string, string, error) {
 	file, err := os.Open(path)
 	if err != nil {
 		return "", "", err
@@ -65,17 +65,19 @@ func loadConf(path string) (string, string, error) {
 	for scanner.Scan() {
 		lines = append(lines, scanner.Text())
 	}
-	kanji, gloss := getPaths(lines)
+	kanji, gloss, conky := getPaths(lines)
 	return kanji, gloss, scanner.Err()
 }
 
-func getPaths(confFile []string) (kanji, gloss string) {
+func getPaths(confFile []string) (kanji, gloss, conky string) {
 	for _, conf := range confFile {
 		c := strings.Split(conf, "=")
 		if c[0] == "kanji" {
 			kanji = c[1]
 		} else if c[0] == "glossary" {
 			gloss = c[1]
+		} else if c[0] == "conky" {
+			conky = c[1]
 		} else {
 			log.Println("Could not recognize filetype:", c[0])
 		}
@@ -112,7 +114,7 @@ func printOneRandom(kMap kanjiMap, gMap glossMap) {
 
 }
 
-func printForConky(kMap kanjiMap, gMap glossMap) {
+func printForConky(conkyRoot string, kMap kanjiMap, gMap glossMap) {
 	rnd := rand.New(rand.NewSource(time.Now().UnixNano()))
 	kEntry := kMap[rnd.Intn(len(kMap))]
 	if kEntry.Kanji != "" {
