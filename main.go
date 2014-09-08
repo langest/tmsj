@@ -3,6 +3,7 @@ package main
 import (
 	"bufio"
 	"encoding/json"
+	"flag"
 	"fmt"
 	"io"
 	"log"
@@ -12,9 +13,8 @@ import (
 	"time"
 )
 
-var (
-	config = os.Getenv("HOME") + "/.tmsj"
-)
+var config = os.Getenv("HOME") + "/.tmsj"
+var forConky = flag.Bool("c", false, "Enable this flag if you want output written to file for conky")
 
 type kanjiMap []kanji
 type glossMap []glossary
@@ -31,6 +31,10 @@ type glossary struct {
 	Translation string `json:translation`
 }
 
+func init() {
+	flag.Parse()
+}
+
 func main() {
 	kanjiPath, glossPath, err := loadConf(config)
 	if err != nil {
@@ -38,7 +42,11 @@ func main() {
 		return
 	}
 	kMap, gMap := parseJson(kanjiPath, glossPath)
-	printOneRandom(kMap, gMap)
+	if !*forConky {
+		printOneRandom(kMap, gMap)
+	} else {
+		printForConky(kMap, gMap)
+	}
 }
 
 func loadConf(path string) (string, string, error) {
@@ -74,6 +82,7 @@ func getPaths(confFile []string) (kanji, gloss string) {
 	}
 	return
 }
+
 func printOneRandom(kMap kanjiMap, gMap glossMap) {
 	//TODO format the output prettier
 	rnd := rand.New(rand.NewSource(time.Now().UnixNano()))
@@ -97,6 +106,29 @@ func printOneRandom(kMap kanjiMap, gMap glossMap) {
 		}
 	}
 	fmt.Println("\n-------and some glossary-------")
+	gEntry := gMap[rnd.Intn(len(gMap))]
+	fmt.Println(gEntry)
+	fmt.Println()
+
+}
+
+func printForConky(kMap kanjiMap, gMap glossMap) {
+	rnd := rand.New(rand.NewSource(time.Now().UnixNano()))
+	kEntry := kMap[rnd.Intn(len(kMap))]
+	if kEntry.Kanji != "" {
+		fmt.Println(kEntry.Kanji)
+
+		if len(kEntry.Pronunciation) > 0 {
+			for _, p := range kEntry.Pronunciation {
+				fmt.Println(p)
+			}
+		}
+		if len(kEntry.Translation) > 0 {
+			for _, t := range kEntry.Translation {
+				fmt.Println(t)
+			}
+		}
+	}
 	gEntry := gMap[rnd.Intn(len(gMap))]
 	fmt.Println(gEntry)
 	fmt.Println()
