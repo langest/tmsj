@@ -52,7 +52,7 @@ func main() {
 func loadConf(path string) (string, string, string, error) {
 	file, err := os.Open(path)
 	if err != nil {
-		return "", "", err
+		return "", "", "", err
 	}
 	defer func() {
 		if err := file.Close(); err != nil {
@@ -66,7 +66,7 @@ func loadConf(path string) (string, string, string, error) {
 		lines = append(lines, scanner.Text())
 	}
 	kanji, gloss, conky := getPaths(lines)
-	return kanji, gloss, scanner.Err()
+	return kanji, gloss, conky, scanner.Err()
 }
 
 func getPaths(confFile []string) (kanji, gloss, conky string) {
@@ -107,32 +107,55 @@ func printOneRandom(kMap kanjiMap, gMap glossMap) {
 			}
 		}
 	}
-	fmt.Println("\n-------and some glossary-------")
 	gEntry := gMap[rnd.Intn(len(gMap))]
 	fmt.Println(gEntry)
 	fmt.Println()
 }
 
-func printForConky(conkyRoot string, kMap kanjiMap, gMap glossMap) {
+func printForConky(conkyRoot string, kMap kanjiMap, gMap glossMap) error {
+	kanji, err := os.Create(conkyRoot + "kanji")
+	fmt.Println(err)
+	if err != nil {
+		return err
+	}
+	defer kanji.Close()
+
+	kanjiW := bufio.NewWriter(kanji)
+	defer kanjiW.Flush()
+
+	kanjiFact, err := os.Create(conkyRoot + "kanjiFact")
+	if err != nil {
+		return err
+	}
+	defer kanjiFact.Close()
+
+	kanjiFactW := bufio.NewWriter(kanjiFact)
+	defer kanjiFactW.Flush()
+	//Print stuff here
+
 	rnd := rand.New(rand.NewSource(time.Now().UnixNano()))
 	kEntry := kMap[rnd.Intn(len(kMap))]
 	if kEntry.Kanji != "" {
-		fmt.Println(kEntry.Kanji)
+		fmt.Fprintf(kanjiW, "%s\n", kEntry.Kanji)
 
 		if len(kEntry.Pronunciation) > 0 {
+			fmt.Fprintf(kanjiFactW, "Pronunciations\n")
 			for _, p := range kEntry.Pronunciation {
-				fmt.Println(p)
+				fmt.Fprintf(kanjiFactW, "%s\n", p)
 			}
 		}
 		if len(kEntry.Translation) > 0 {
+			fmt.Fprintf(kanjiFactW, "Translations\n")
 			for _, t := range kEntry.Translation {
-				fmt.Println(t)
+				fmt.Fprintf(kanjiFactW, "%s\n", t)
 			}
 		}
 	}
 	gEntry := gMap[rnd.Intn(len(gMap))]
-	fmt.Println(gEntry)
+	fmt.Printf("TODO %s", gEntry)
 	fmt.Println()
+
+	return nil
 }
 
 func parseJson(kanjiPath, glossPath string) (kMap kanjiMap, gMap glossMap) {
