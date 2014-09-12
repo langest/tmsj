@@ -1,247 +1,288 @@
 [
-	{
-		"kanji": "一",
-		"pronunciation": [
-			"いち"
-		],
-		"translation": [
-			"一: いち - one",
-			"一時: いちじ - one o'clock"
-		]
-	},
-	{
-		"kanji": "次",
-		"pronunciation": [
-				"つぎ"
-			],
-		"translation": [
-			"次: つぎ - next"
-			]
-	},
-	{
-		"kanji": "休",
-		"pronunciation": [
-			"やす"
-		],
-		"translation": [
-			"休む: やすむ - to be absent; to rest",
-			"休み: やすみ - holiday; absence"
-		]
-	},
-{"WORKING HERE": "TODO"},
-	{
-		"kanji": "",
-		"pronunciation": [
-			""
-		],
-		"translation": [
-			": -"
-		]
-	},
-	{
-		"kanji": "間",
-		"pronunciation": [
-			"かん",
-			"あいだ"
-		],
-		"translation": [
-			"時間: じかん - time",
-			"二時間: にじかん - two hours",
-			"間: あいだ - between"
-		]
-	},
-	{
-		"kanji": "家",
-		"pronunciation": [
-			"いえ"
-		],
-		"translation": [
-			"家: いえ - house"
-		]
-	},
-	{
-		"kanji": "話",
-		"pronunciation": [
-			"わ",
-			"はな",
-			"はなし"
-		],
-		"translation": [
-			"電話: でんわ - telephone",
-			"話す: はなす - to speak",
-			"話: はなし - talk; story"
-		]
-	},
-	{
-		"kanji": "少",
-		"pronunciation": [
-			"すこ"
-		],
-		"translation": [
-			"少し: すこし - little"
-		]
-	},
-	{
-		"kanji": "古",
-		"pronunciation": [
-			"ふる"
-		],
-		"translation": [
-			"古い: ふるい - old (for things)"
-		]
-	},
-	{
-		"kanji": "知",
-		"pronunciation": [
-			"し"
-		],
-		"translation": [
-			"知る: しる - to know"
-		]
-	},
-	{
-		"kanji": "来",
-		"pronunciation": [
-			"く",
-			"き",
-			"こ"
-		],
-		"translation": [
-			"来る: くる - to come",
-			"来ます: きます - to come",
-			"来ない: こない - not to come"
-		]
-	},
-	{
-		"kanji": "住",
-		"pronunciation": [
-			"す"
-		],
-		"translation": [
-			"住む: すむ - to live"
-		]
-	},
-	{
-		"kanji": "正",
-		"pronunciation": [
-			"しょう"
-		],
-		"translation": [
-			"お正月: おしょうがつ - New Year"
-		]
-	},
-	{
-		"kanji": "年",
-		"pronunciation": [
-			"ねん",
-			"とし"
-		],
-		"translation": [
-			"三年生: さねんせい - third-year student",
-			"来年: らいねん - next year",
-			"年: とし - year",
-			"今年: ことし - this year"
-		]
-	},
-	{
-		"kanji": "売",
-		"pronunciation": [
-			"う"
-		],
-		"translation": [
-			"売る: うる - to sell"
-		]
-	},
-	{
-		"kanji": "買",
-		"pronunciation": [
-			"か"
-		],
-		"translation": [
-			"買う: かう - to buy"
-		]
-	},
-	{
-		"kanji": "町",
-		"pronunciation": [
-			"まち"
-		],
-		"translation": [
-			"町: まち - town"
-		]
-	},
-	{
-		"kanji": "長",
-		"pronunciation": [
-			"ながい"
-		],
-		"translation": [
-			"長い: ながい - long"
-		]
-	},
-	{
-		"kanji": "道",
-		"pronunciation": [
-			"みち"
-		],
-		"translation": [
-			"道: みち - road"
-		]
-	},
-	{
-		"kanji": "雪",
-		"pronunciation": [
-			"ゆき"
-		],
-		"translation": [
-			"雪: ゆき - snow"
-		]
-	},
-	{
-		"kanji": "立",
-		"pronunciation": [
-			"た"
-		],
-		"translation": [
-			"立つ: たつ - to stand"
-		]
-	},
-	{
-		"kanji": "自",
-		"pronunciation": [
-			"じ"
-		],
-		"translation": [
-			"自分: じぶん - one self"
-		]
-	},
-	{
-		"kanji": "夜",
-		"pronunciation": [
-			"よる"
-		],
-		"translation": [
-			"夜: よる - night"
-		]
-	},
-	{
-		"kanji": "朝",
-		"pronunciation": [
-			"あさ"
-		],
-		"translation": [
-			"朝: あさ- morning",
-			"今朝: けさ - this morning"
-		]
-	},
-	{
-		"kanji": "持",
-		"pronunciation": [
-			"も"
-		],
-		"translation": [
-			"持つ: もつ - to hold",
-			"持ってくる: もってくる - to bring"
-		]
-	}
+    {
+        "kanji": "一",
+        "pronunciation": [
+            "いち"
+        ],
+        "translation": [
+            "一: いち - one",
+            "一時: いちじ - one o'clock"
+        ]
+    },
+    {
+        "kanji": "次",
+        "pronunciation": [
+            "つぎ"
+        ],
+        "translation": [
+            "次: つぎ - next"
+        ]
+    },
+    {
+        "kanji": "休",
+        "pronunciation": [
+            "やす"
+        ],
+        "translation": [
+            "休む: やすむ - to be absent; to rest",
+            "休み: やすみ - holiday; absence"
+        ]
+    },
+    {
+        "WORKING HERE": "TODO"
+    },
+    {
+        "kanji": "",
+        "pronunciation": [
+            ""
+        ],
+        "translation": [
+            ": -"
+        ]
+    },
+    {
+        "kanji": "間",
+        "pronunciation": [
+            "かん",
+            "あいだ"
+        ],
+        "translation": [
+            "時間: じかん - time",
+            "二時間: にじかん - two hours",
+            "間: あいだ - between"
+        ]
+    },
+    {
+        "kanji": "家",
+        "pronunciation": [
+            "いえ"
+        ],
+        "translation": [
+            "家: いえ - house"
+        ]
+    },
+    {
+        "kanji": "話",
+        "pronunciation": [
+            "わ",
+            "はな",
+            "はなし"
+        ],
+        "translation": [
+            "電話: でんわ - telephone",
+            "話す: はなす - to speak",
+            "話: はなし - talk; story"
+        ]
+    },
+    {
+        "kanji": "少",
+        "pronunciation": [
+            "すこ"
+        ],
+        "translation": [
+            "少し: すこし - little"
+        ]
+    },
+    {
+        "kanji": "古",
+        "pronunciation": [
+            "ふる"
+        ],
+        "translation": [
+            "古い: ふるい - old (for things)"
+        ]
+    },
+    {
+        "kanji": "知",
+        "pronunciation": [
+            "し"
+        ],
+        "translation": [
+            "知る: しる - to know"
+        ]
+    },
+    {
+        "kanji": "来",
+        "pronunciation": [
+            "く",
+            "き",
+            "こ"
+        ],
+        "translation": [
+            "来る: くる - to come",
+            "来ます: きます - to come",
+            "来ない: こない - not to come"
+        ]
+    },
+    {
+        "kanji": "住",
+        "pronunciation": [
+            "す"
+        ],
+        "translation": [
+            "住む: すむ - to live"
+        ]
+    },
+    {
+        "kanji": "正",
+        "pronunciation": [
+            "しょう"
+        ],
+        "translation": [
+            "お正月: おしょうがつ - New Year"
+        ]
+    },
+    {
+        "kanji": "年",
+        "pronunciation": [
+            "ねん",
+            "とし"
+        ],
+        "translation": [
+            "三年生: さねんせい - third-year student",
+            "来年: らいねん - next year",
+            "年: とし - year",
+            "今年: ことし - this year"
+        ]
+    },
+    {
+        "kanji": "売",
+        "pronunciation": [
+            "う"
+        ],
+        "translation": [
+            "売る: うる - to sell"
+        ]
+    },
+    {
+        "kanji": "買",
+        "pronunciation": [
+            "か"
+        ],
+        "translation": [
+            "買う: かう - to buy"
+        ]
+    },
+    {
+        "kanji": "町",
+        "pronunciation": [
+            "まち"
+        ],
+        "translation": [
+            "町: まち - town"
+        ]
+    },
+    {
+        "kanji": "長",
+        "pronunciation": [
+            "ながい"
+        ],
+        "translation": [
+            "長い: ながい - long"
+        ]
+    },
+    {
+        "kanji": "道",
+        "pronunciation": [
+            "みち"
+        ],
+        "translation": [
+            "道: みち - road"
+        ]
+    },
+    {
+        "kanji": "雪",
+        "pronunciation": [
+            "ゆき"
+        ],
+        "translation": [
+            "雪: ゆき - snow"
+        ]
+    },
+    {
+        "kanji": "立",
+        "pronunciation": [
+            "た"
+        ],
+        "translation": [
+            "立つ: たつ - to stand"
+        ]
+    },
+    {
+        "kanji": "自",
+        "pronunciation": [
+            "じ"
+        ],
+        "translation": [
+            "自分: じぶん - one self"
+        ]
+    },
+    {
+        "kanji": "夜",
+        "pronunciation": [
+            "よる"
+        ],
+        "translation": [
+            "夜: よる - night"
+        ]
+    },
+    {
+        "kanji": "朝",
+        "pronunciation": [
+            "あさ"
+        ],
+        "translation": [
+            "朝: あさ- morning",
+            "今朝: けさ - this morning"
+        ]
+    },
+    {
+        "kanji": "持",
+        "pronunciation": [
+            "も"
+        ],
+        "translation": [
+            "持つ: もつ - to hold",
+            "持ってくる: もってくる - to bring"
+        ]
+    },
+    {
+        "kanji": "手",
+        "pronunciation": [
+            "しゅ",
+            "て"
+        ],
+        "translation": [
+            "手紙: てがみ - letter",
+            "歌手: かしゅ - singer"
+        ]
+    },
+    {
+        "kanji": "紙",
+        "pronunciation": [
+            "がみ"
+        ],
+        "translation": [
+            "手紙: てがみ - letter"
+        ]
+    },
+    {
+        "kanji": "好",
+        "pronunciation": [
+            "す"
+        ],
+        "translation": [
+            "好きな: すきな - to like",
+            "大好きな: だいすきな - to love"
+        ]
+    },
+    {
+        "kanji": "紙",
+        "pronunciation": [
+            "がみ"
+        ],
+        "translation": [
+            "手紙: てがみ - letter"
+        ]
+    }
 ]
