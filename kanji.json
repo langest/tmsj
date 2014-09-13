@@ -277,12 +277,14 @@
         ]
     },
     {
-        "kanji": "紙",
+        "kanji": "近",
         "pronunciation": [
-            "がみ"
+            "ちか",
+						"きん"
         ],
         "translation": [
-            "手紙: てがみ - letter"
+            "近く: ちかく - near; nearby",
+						"近所: きんじょ - neighbourhood"
         ]
     }
 ]
