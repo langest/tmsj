@@ -17,5 +17,157 @@
 	{
 		"word": "やる",
 		"translation": "att göra (intim)"
+	},
+	{
+		"word": "でかける",
+		"kanji": "出かける",
+		"translation": "att gå ut"
+	},
+	{
+		"word": "おおきい",
+		"kanji": "大きい",
+		"translation": "stor"
+	},
+	{
+		"word": "こわい",
+		"kanji": "怖い",
+		"translation": "läskig"
+	},
+	{
+		"word": "さむい",
+		"kanji": "寒い",
+		"translation": "kall"
+	},
+	{
+		"word": "ちいさい",
+		"kanji": "小さい",
+		"translation": "liten"
+	},
+	{
+		"word": "ふるい",
+		"kanji": "古い",
+		"translation": "gammal (för saker)"
+	},
+	{
+		"word": "にぎやかだ",
+		"kanji": "賑やかだ",
+		"translation": "livlig"
+	},
+	{
+		"word": "しずかだ",
+		"kanji": "静かだ",
+		"translation": "tyst, lugn"
+	},
+	{
+		"word": "えき",
+		"kanji": "駅",
+		"translation": "station"
+	},
+	{
+		"word": "かお",
+		"kanji": "顔",
+		"translation": "ansikte"
+	},
+	{
+		"word": "せいかつ",
+		"kanji": "seikatsu",
+		"translation": "vardagsliv"
+	},
+	{
+		"word": "ちかてつ",
+		"kanji": "地下鉄",
+		"translation": "tunnelbana"
+	},
+	{
+		"word": "びよういん",
+		"kanji": "美容院",
+		"translation": "damfrisersalong"
+	},
+	{
+		"word": "はる",
+		"kanji": "春",
+		"translation": "vår"
+	},
+	{
+		"word": "ゆうめいじん",
+		"kanji": "有名人",
+		"translation": "kändis"
+	},
+	{
+		"word": "よやく",
+		"kanji": "予約",
+		"translation": "bokning"
+	},
+	{
+		"word": "らいがっき",
+		"kanji": "来学期",
+		"translation": "nästa termin"
+	},
+	{
+		"word": "りんご",
+		"kanji": "林檎",
+		"translation": "äpple"
+	},
+	{
+		"word": "れんしゅう",
+		"kanji": "練習",
+		"translation": "övning"
+	},
+	{	"word": "あたたかい",
+		"kanji": "暖かい",
+		"translation": "varm"
+	},
+	{
+		"word": "おそい",
+		"kanji": "遅い",
+		"translation": "sen"
+	},
+	{
+		"word": "つめたい",
+		"kanji": "冷たい",
+		"translation": "kall"
+	},
+	{
+		"word": "すずしい",
+		"kanji": "涼しい",
+		"translation": "sval"
+	},
+	{
+		"word": "ねむい",
+		"kanji": "眠い",
+		"translation": "sömnig"
+	},
+	{
+		"word": "かんたんだ",
+		"kanji": "簡単だ",
+		"translation": "enkel"
+	},
+	{
+		"word": "かかる",
+		"translation": "att ta (tid/pengar)"
+	},
+	{
+		"word": "とまる",
+		"kanji": "泊まる",
+		"translation": "att stanna"
+	},
+	{
+		"word": "なる",
+		"translation": "att bli"
+	},
+	{
+		"word": "はらう",
+		"kanji": "払う",
+		"translation": "att betala"
+	},
+	{
+		"word": "きめる",
+		"kanji": "決まる",
+		"translation": "att bestämma"
+	},
+	{
+		"word": "いちばん",
+		"kanji": "一番",
+		"translation": "bäst, första plats i "
 	}
 ]
