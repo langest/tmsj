@@ -26,7 +26,7 @@ type kanji struct {
 }
 
 type glossary struct {
-	HiraKata    string `json:hirakata`
+	Word        string `json:word`
 	Kanji       string `json:kanji`
 	Translation string `json:translation`
 }
@@ -113,6 +113,8 @@ func printOneRandom(kMap kanjiMap, gMap glossMap) {
 }
 
 func printForConky(conkyRoot string, kMap kanjiMap, gMap glossMap) error {
+
+	//Kanji
 	kanji, err := os.Create(conkyRoot + "kanji")
 	if err != nil {
 		return err
@@ -148,6 +150,28 @@ func printForConky(conkyRoot string, kMap kanjiMap, gMap glossMap) error {
 			for _, t := range kEntry.Translation {
 				fmt.Fprintf(kanjiFactW, "%s\n", t)
 			}
+		}
+	}
+
+	//Glossary
+	gloss, err := os.Create(conkyRoot + "glossary")
+	if err != nil {
+		return err
+	}
+	defer gloss.Close()
+
+	glossW := bufio.NewWriter(gloss)
+	defer glossW.Flush()
+
+	gEntry := gMap[rnd.Intn(len(gMap))]
+	if gEntry.Word != "" {
+		fmt.Fprintf(glossW, "%s\n", gEntry.Word)
+
+		if len(gEntry.Kanji) > 0 {
+			fmt.Fprintf(glossW, "%s\n", gEntry.Kanji)
+		}
+		if len(gEntry.Translation) > 0 {
+			fmt.Fprintf(glossW, "%s\n", gEntry.Translation)
 		}
 	}
 	//gEntry := gMap[rnd.Intn(len(gMap))]
