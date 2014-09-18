@@ -1,7 +1,21 @@
 [
 	{
-		"hirakata": "ゆき",
-		"kanji": "雪",
-		"translation": "snow"
+		"word": "とる",
+		"kanji": "写真を撮る - しゃしんをとる",
+		"translation": "fotografera"
+	},
+	{
+		"word": "およぐ",
+	 	"kanji": "泳ぐ"	,
+		"translation": "att simma"
+	},
+	{
+		"word": "のる",
+	 	"kanji": "乗る"	,
+		"translation": "att gå på / åka på"
+	},
+	{
+		"word": "やる",
+		"translation": "att göra (intim)"
 	}
 ]
