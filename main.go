@@ -114,7 +114,6 @@ func printOneRandom(kMap kanjiMap, gMap glossMap) {
 
 func printForConky(conkyRoot string, kMap kanjiMap, gMap glossMap) error {
 	kanji, err := os.Create(conkyRoot + "kanji")
-	fmt.Println(err)
 	if err != nil {
 		return err
 	}
@@ -151,9 +150,9 @@ func printForConky(conkyRoot string, kMap kanjiMap, gMap glossMap) error {
 			}
 		}
 	}
-	gEntry := gMap[rnd.Intn(len(gMap))]
-	fmt.Printf("TODO %s", gEntry)
-	fmt.Println()
+	//gEntry := gMap[rnd.Intn(len(gMap))]
+	//fmt.Printf("TODO %s", gEntry)
+	//fmt.Println()
 
 	return nil
 }
