@@ -168,6 +168,56 @@
 	{
 		"word": "いちばん",
 		"kanji": "一番",
-		"translation": "bäst, första plats i "
+		"translation": "bäst, första plats i"
+	},
+	{
+		"word": "このごろ",
+		"translation": "nu för tiden"
+	},
+	{
+		"word": "どうやって",
+		"translation": "hur"
+	},
+	{
+		"word": "どっち=どちら",
+		"translation": "vilken/vilket"
+	},
+	{
+		"word": "くらい=ぐらい",
+		"translation": "ungefär (mängd)"
+	},
+	{
+		"word": "おかし",
+		"kanji": "お菓子",
+		"translation": "godis, sötsak"
+	},
+	{
+		"word": "しょうがつ",
+		"kanji": "正月",
+		"translation": "Nyårstid"
+	},
+	{
+		"word": "おもちゃ",
+		"translation": "leksak"
+	},
+	{
+		"word": "がいこく",
+		"kanji": "外国",
+		"translation": "utland"
+	},
+	{
+		"word": "こんがっき",
+		"kanji": "今学期",
+		"translation": "den här terminen"
+	},
+	{
+		"word": "しゃちょう",
+		"kanji": "社長",
+		"translation": "VD"
+	},
+	{
+		"word": "じゅぎょう",
+		"kanji": "授業",
+		"translation": "lektion"
 	}
 ]
