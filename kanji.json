@@ -39,5 +39,33 @@
             "近く: ちかく - near; nearby",
 						"近所: きんじょ - neighbourhood"
         ]
+    },
+    {
+        "kanji": "明",
+        "pronunciation": [
+            "あか"
+        ],
+        "translation": [
+					"明るい: あかるい - bright"
+        ]
+    },
+    {
+        "kanji": "病",
+        "pronunciation": [
+            "びょう"
+        ],
+        "translation": [
+					"病院: びょういん - hospital",
+					"病気: びょうき - illness"
+        ]
+    },
+    {
+        "kanji": "院",
+        "pronunciation": [
+            "いん"
+        ],
+        "translation": [
+					"病院 びょういん"
+        ]
     }
 ]
