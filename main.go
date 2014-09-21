@@ -174,9 +174,6 @@ func printForConky(conkyRoot string, kMap kanjiMap, gMap glossMap) error {
 			fmt.Fprintf(glossW, "%s\n", gEntry.Translation)
 		}
 	}
-	//gEntry := gMap[rnd.Intn(len(gMap))]
-	//fmt.Printf("TODO %s", gEntry)
-	//fmt.Println()
 
 	return nil
 }
