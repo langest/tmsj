@@ -219,5 +219,86 @@
 		"word": "じゅぎょう",
 		"kanji": "授業",
 		"translation": "lektion"
+	},
+	{
+		"word": "びじゅつかん",
+		"kanji": "美術館",
+		"translation": "konstmuseum"
+	},
+	{
+		"word": "やま",
+		"kanji": "山",
+		"translation": "berg"
+	},
+	{
+		"word": "ゆめ",
+		"kanji": "夢",
+		"translation": "dröm"
+	},
+	{
+		"word": "うそをつく",
+		"translation": "att ljuga"
+	},
+	{
+		"word": "おなかがすく",
+		"translation": "att bli hungrig"
+	},
+	{
+		"word": "さぼる",
+		"kanji": "サボる",
+		"translation": "att skolka"
+	},
+	{
+		"word": "かう",
+		"kanji": "飼う",
+		"translation": "att ha husdjur"
+	},
+	{
+		"word": "すく",
+		"translation": "att bli tom"
+	},
+	{
+		"word": "とる",
+		"translation": "att ta"
+	},
+	{
+		"word": "ならう",
+		"translation": "att lära sig"
+	},
+	{
+		"word": "はたらく",
+		"kanji": "働く",
+		"translation": "att arbeta"
+	},
+	{
+		"word": "つかれる",
+		"kanji": "疲れる",
+		"translation": "att bli trött"
+	},
+	{
+		"word": "やめる",
+		"translation": "att hoppa av"
+	},
+	{
+		"word": "あと",
+		"kanji": "後",
+		"translation": "efter"
+	},
+	{
+		"word": "すごく",
+		"translation": "väldigt/förskräckligt"
+	},
+	{
+		"word": "そして",
+		"translation": "och sedan"
+	},
+	{
+		"word": "ひさしぶり",
+		"kanji": "久しぶり",
+		"translation": "det var länge sedan"
+	},
+	{
+		"word": "もっと",
+		"translation": "mer"
 	}
 ]
