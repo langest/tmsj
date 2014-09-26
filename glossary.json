@@ -300,5 +300,59 @@
 	{
 		"word": "もっと",
 		"translation": "mer"
+	},
+	{
+		"word": "いみ",
+		"kanji": "意味",
+		"translation": "betydelse"
+	},
+	{
+		"word": "おなか",
+		"translation": "mage"
+	},
+	{
+		"word": "かぜ",
+		"kanji": "風邪",
+		"translation": "förkylning"
+	},
+	{
+		"word": "かのじょ",
+		"kanji": "彼女",
+		"translation": "flickvän"
+	},
+	{
+		"word": "かれ",
+		"kanji": "彼",
+		"translation": "pojkvän"
+	},
+	{
+		"word": "くもり",
+		"kanji": "曇り",
+		"translation": "molnig"
+	},
+	{
+		"word": "せいじ",
+		"kanji": "政治",
+		"translation": "politik"
+	},
+	{
+		"word": "せいせき",
+		"kanji": "成績",
+		"translation": "betyg"
+	},
+	{
+		"word": "ふつかよい",
+		"kanji": "二日酔い",
+		"translation": "bakfull"
+	},
+	{
+		"word": "もの",
+		"kanji": "物",
+		"translation": "ting (konkret)"
+	},
+	{
+		"word": "ゆき",
+		"kanji": "雪",
+		"translation": "snö"
 	}
 ]
