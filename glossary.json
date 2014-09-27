@@ -354,5 +354,30 @@
 		"word": "ゆき",
 		"kanji": "雪",
 		"translation": "snö"
+	},
+	{
+		"word": "ようじ",
+		"kanji": "用事",
+		"translation": "ärende"
+	},
+	{
+		"word": "あまい",
+		"kanji": "甘い",
+		"translation": "söt"
+	},
+	{
+		"word": "いたい",
+		"kanji": "痛い",
+		"translation": "gör ont"
+	},
+	{
+		"word": "おおい",
+		"kanji": "多い",
+		"translation": "mycket/många"
+	},
+	{
+		"word": "わるい",
+		"kanji": "悪い",
+		"translation": "dålig"
 	}
 ]
