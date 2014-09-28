@@ -16,7 +16,7 @@ format_human_readable
 # - Text settings - #
 #####################
 use_xft yes
-xftfont DejaVu Sans:size=10
+xftfont Droid Sans:size=10
 override_utf8_locale yes
 text_buffer_size 2048
 
@@ -30,11 +30,15 @@ own_window_argb_visual yes
 own_window_argb_value 150
 own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
 
-alignment top_right
+alignment middle_right
 
-gap_y 83
-gap_x 50
+gap_y 0
+gap_x 25
 border_inner_margin 8
+
+minimum_size 230 900
+maximum_width 230
+maximum_height 900
 
 default_bar_size 92 6
 
@@ -46,9 +50,26 @@ default_shade_color 000000
 default_color FFFFFF
 
 TEXT
+#############
+# - CLOCK - #
+#############
+${voffset 6}${font Droid Sans:style=Bold:size=10}DATE $stippled_hr${font}
+${font Droid Sans:size=38}${alignc}${time %H:%M}${font}
+${alignc}${font :size=8}${time %A %d %b %Y}
 ################
 # - JAPANESE - #
 ################
-${font Sazanami Mincho:style=Mincho-Regular:size=72}${execpi 420 cat /home/langest/.conky/tmsj/kanji}${font}
+${voffset 6}${font Droid Sans:style=Bold:size=10}Japanese $stippled_hr${font}
+${font EPSON 教科書体Ｍ:style=Mincho-Regular:size=102}${alignc}${execpi 120 cat /home/langest/.conky/tmsj/kanji}${font}
+${font Sazanami mincho:style=Mincho-Regular:size=14}
+${execpi 120 cat /home/langest/.conky/tmsj/kanjiFact}
 
-${font Sazanami Mincho:style=Mincho-Regular:size=12}${execpi 420 cat /home/langest/.conky/tmsj/kanjiFact}${font}${execpi 420 tmsj -c}
+Glossary
+
+${execpi 120 cat /home/langest/.conky/tmsj/glossary}${execpi 120 tmsj -c}
+
+${execpi 120 cat /home/langest/.conky/tmsj/glossary}${execpi 120 tmsj -c}
+
+${execpi 120 cat /home/langest/.conky/tmsj/glossary}${execpi 120 tmsj -c}
+
+${execpi 120 cat /home/langest/.conky/tmsj/glossary}${execpi 120 tmsj -c}${font}
