@@ -64,6 +64,7 @@ ${font EPSON 教科書体Ｍ:style=Mincho-Regular:size=102}${alignc}${execpi 120
 ${font Sazanami mincho:style=Mincho-Regular:size=14}
 ${execpi 120 cat /home/langest/.conky/tmsj/kanjiFact}
 
+
 Glossary
 
 ${execpi 120 cat /home/langest/.conky/tmsj/glossary}${execpi 120 tmsj -c}
