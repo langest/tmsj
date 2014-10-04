@@ -5,48 +5,13 @@
 		"translation": "fotografera"
 	},
 	{
-		"word": "およぐ",
-	 	"kanji": "泳ぐ"	,
-		"translation": "att simma"
-	},
-	{
-		"word": "のる",
-	 	"kanji": "乗る"	,
-		"translation": "att gå på / åka på"
-	},
-	{
 		"word": "やる",
 		"translation": "att göra (intim)"
-	},
-	{
-		"word": "でかける",
-		"kanji": "出かける",
-		"translation": "att gå ut"
-	},
-	{
-		"word": "おおきい",
-		"kanji": "大きい",
-		"translation": "stor"
-	},
-	{
-		"word": "こわい",
-		"kanji": "怖い",
-		"translation": "läskig"
 	},
 	{
 		"word": "さむい",
 		"kanji": "寒い",
 		"translation": "kall"
-	},
-	{
-		"word": "ちいさい",
-		"kanji": "小さい",
-		"translation": "liten"
-	},
-	{
-		"word": "ふるい",
-		"kanji": "古い",
-		"translation": "gammal (för saker)"
 	},
 	{
 		"word": "にぎやかだ",
@@ -57,16 +22,6 @@
 		"word": "しずかだ",
 		"kanji": "静かだ",
 		"translation": "tyst, lugn"
-	},
-	{
-		"word": "えき",
-		"kanji": "駅",
-		"translation": "station"
-	},
-	{
-		"word": "かお",
-		"kanji": "顔",
-		"translation": "ansikte"
 	},
 	{
 		"word": "せいかつ",
@@ -89,11 +44,6 @@
 		"translation": "vår"
 	},
 	{
-		"word": "ゆうめいじん",
-		"kanji": "有名人",
-		"translation": "kändis"
-	},
-	{
 		"word": "よやく",
 		"kanji": "予約",
 		"translation": "bokning"
@@ -102,11 +52,6 @@
 		"word": "らいがっき",
 		"kanji": "来学期",
 		"translation": "nästa termin"
-	},
-	{
-		"word": "りんご",
-		"kanji": "林檎",
-		"translation": "äpple"
 	},
 	{
 		"word": "れんしゅう",
@@ -166,11 +111,6 @@
 		"translation": "att bestämma"
 	},
 	{
-		"word": "いちばん",
-		"kanji": "一番",
-		"translation": "bäst, första plats i"
-	},
-	{
 		"word": "このごろ",
 		"translation": "nu för tiden"
 	},
@@ -201,11 +141,6 @@
 		"translation": "leksak"
 	},
 	{
-		"word": "がいこく",
-		"kanji": "外国",
-		"translation": "utland"
-	},
-	{
 		"word": "こんがっき",
 		"kanji": "今学期",
 		"translation": "den här terminen"
@@ -224,11 +159,6 @@
 		"word": "びじゅつかん",
 		"kanji": "美術館",
 		"translation": "konstmuseum"
-	},
-	{
-		"word": "やま",
-		"kanji": "山",
-		"translation": "berg"
 	},
 	{
 		"word": "ゆめ",
@@ -264,11 +194,6 @@
 	{
 		"word": "ならう",
 		"translation": "att lära sig"
-	},
-	{
-		"word": "はたらく",
-		"kanji": "働く",
-		"translation": "att arbeta"
 	},
 	{
 		"word": "つかれる",
@@ -349,11 +274,6 @@
 		"word": "もの",
 		"kanji": "物",
 		"translation": "ting (konkret)"
-	},
-	{
-		"word": "ゆき",
-		"kanji": "雪",
-		"translation": "snö"
 	},
 	{
 		"word": "ようじ",

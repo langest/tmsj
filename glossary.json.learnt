@@ -1,0 +1,82 @@
+[
+	{
+		"word": "およぐ",
+	 	"kanji": "泳ぐ"	,
+		"translation": "att simma"
+	},
+	{
+		"word": "のる",
+	 	"kanji": "乗る"	,
+		"translation": "att gå på / åka på"
+	},
+	{
+		"word": "でかける",
+		"kanji": "出かける",
+		"translation": "att gå ut"
+	},
+	{
+		"word": "おおきい",
+		"kanji": "大きい",
+		"translation": "stor"
+	},
+	{
+		"word": "こわい",
+		"kanji": "怖い",
+		"translation": "läskig"
+	},
+	{
+		"word": "ちいさい",
+		"kanji": "小さい",
+		"translation": "liten"
+	},
+	{
+		"word": "ふるい",
+		"kanji": "古い",
+		"translation": "gammal (för saker)"
+	},
+	{
+		"word": "えき",
+		"kanji": "駅",
+		"translation": "station"
+	},
+	{
+		"word": "かお",
+		"kanji": "顔",
+		"translation": "ansikte"
+	},
+	{
+		"word": "ゆうめいじん",
+		"kanji": "有名人",
+		"translation": "kändis"
+	},
+	{
+		"word": "りんご",
+		"kanji": "林檎",
+		"translation": "äpple"
+	},
+	{
+		"word": "いちばん",
+		"kanji": "一番",
+		"translation": "bäst, första plats i"
+	},
+	{
+		"word": "がいこく",
+		"kanji": "外国",
+		"translation": "utland"
+	},
+	{
+		"word": "やま",
+		"kanji": "山",
+		"translation": "berg"
+	},
+	{
+		"word": "はたらく",
+		"kanji": "働く",
+		"translation": "att arbeta"
+	},
+	{
+		"word": "ゆき",
+		"kanji": "雪",
+		"translation": "snö"
+	}
+]
