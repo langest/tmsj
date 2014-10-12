@@ -78,5 +78,37 @@
 		"word": "ゆき",
 		"kanji": "雪",
 		"translation": "snö"
-	}
+	},
+	{
+		"word": "とる",
+		"kanji": "写真を撮る - しゃしんをとる",
+		"translation": "fotografera"
+	},
+	{
+		"word": "さむい",
+		"kanji": "寒い",
+		"translation": "kall"
+	},
+	{
+		"word": "びよういん",
+		"kanji": "美容院",
+		"translation": "damfrisersalong"
+	},
+	{
+		"word": "あたたかい",
+		"kanji": "暖かい",
+		"translation": "varm"
+	},
+	{
+		"word": "どっち=どちら",
+		"translation": "vilken/vilket"
+	},
+	{
+		"word": "くらい=ぐらい",
+		"translation": "ungefär (mängd)"
+	},	
+	{
+		"word": "やめる",
+		"translation": "att hoppa av"
+	},
 ]

@@ -1,18 +1,9 @@
 [
 	{
-		"word": "とる",
-		"kanji": "写真を撮る - しゃしんをとる",
-		"translation": "fotografera"
-	},
-	{
 		"word": "やる",
 		"translation": "att göra (intim)"
 	},
-	{
-		"word": "さむい",
-		"kanji": "寒い",
-		"translation": "kall"
-	},
+
 	{
 		"word": "にぎやかだ",
 		"kanji": "賑やかだ",
@@ -34,11 +25,6 @@
 		"translation": "tunnelbana"
 	},
 	{
-		"word": "びよういん",
-		"kanji": "美容院",
-		"translation": "damfrisersalong"
-	},
-	{
 		"word": "はる",
 		"kanji": "春",
 		"translation": "vår"
@@ -57,10 +43,6 @@
 		"word": "れんしゅう",
 		"kanji": "練習",
 		"translation": "övning"
-	},
-	{	"word": "あたたかい",
-		"kanji": "暖かい",
-		"translation": "varm"
 	},
 	{
 		"word": "おそい",
@@ -117,14 +99,6 @@
 	{
 		"word": "どうやって",
 		"translation": "hur"
-	},
-	{
-		"word": "どっち=どちら",
-		"translation": "vilken/vilket"
-	},
-	{
-		"word": "くらい=ぐらい",
-		"translation": "ungefär (mängd)"
 	},
 	{
 		"word": "おかし",
@@ -199,10 +173,6 @@
 		"word": "つかれる",
 		"kanji": "疲れる",
 		"translation": "att bli trött"
-	},
-	{
-		"word": "やめる",
-		"translation": "att hoppa av"
 	},
 	{
 		"word": "あと",
