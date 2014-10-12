@@ -144,10 +144,6 @@
 		"translation": "att ljuga"
 	},
 	{
-		"word": "おなかがすく",
-		"translation": "att bli hungrig"
-	},
-	{
 		"word": "さぼる",
 		"kanji": "サボる",
 		"translation": "att skolka"
@@ -156,10 +152,6 @@
 		"word": "かう",
 		"kanji": "飼う",
 		"translation": "att ha husdjur"
-	},
-	{
-		"word": "すく",
-		"translation": "att bli tom"
 	},
 	{
 		"word": "とる",
@@ -200,10 +192,6 @@
 		"word": "いみ",
 		"kanji": "意味",
 		"translation": "betydelse"
-	},
-	{
-		"word": "おなか",
-		"translation": "mage"
 	},
 	{
 		"word": "かぜ",

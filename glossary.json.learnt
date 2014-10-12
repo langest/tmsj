@@ -111,4 +111,16 @@
 		"word": "やめる",
 		"translation": "att hoppa av"
 	},
+	{
+		"word": "すく",
+		"translation": "att bli tom"
+	},
+	{
+		"word": "おなか",
+		"translation": "mage"
+	},
+	{
+		"word": "おなかがすく",
+		"translation": "att bli hungrig"
+	}
 ]
