@@ -122,5 +122,10 @@
 	{
 		"word": "おなかがすく",
 		"translation": "att bli hungrig"
+	},
+	{
+		"word": "わるい",
+		"kanji": "悪い",
+		"translation": "dålig"
 	}
 ]
