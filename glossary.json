@@ -299,5 +299,183 @@
 		"word": "わるい",
 		"kanji": "悪い",
 		"translation": "dålig"
+	},
+	{
+		"word": "すてきだ",
+		"kanji": "素敵だ",
+		"translation": "fantastisk"
+	},
+	{
+		"word": "のどがかわく",
+		"kanji": "のどが渇く",
+		"translation": "att bli törstig"
+	},
+	{
+		"word": "なくす",
+		"translation": "att tappa bort"
+	},
+	{
+		"word": "かぜをひく",
+		"kanji": "風邪を引く",
+		"translation": "att bli förkyld"
+	},
+	{
+		"word": "せきがでる",
+		"kanji": "咳が出る",
+		"translation": "att hosta"
+	},
+	{
+		"word": "わかれる",
+		"kanji": "別れる",
+		"translation": "att separera"
+	},
+	{
+		"word": "いつも",
+		"translation": "alltid"
+	},
+	{
+		"word": "おだいじに",
+		"kanji": "お大事に",
+		"translation": "sköt om dig!"
+	},
+	{
+		"word": "たぶん",
+		"kanji": "多分",
+		"translation": "kanske"
+	},
+	{
+		"word": "できるだけ",
+		"translation": "så mycket som möjligt"
+	},
+	{
+		"word": "はじめて",
+		"kanji": "初めて",
+		"translation": "för första gången"
+	},
+	{
+		"word": "おじいさん",
+		"translation": "farfar/morfar"
+	},
+	{
+		"word": "おたく",
+		"kanji": "お宅",
+		"translation": "(ditt) hem"
+	},
+	{
+		"word": "おとな",
+		"kanji": "大人",
+		"translation": "vuxen"
+	},
+	{
+		"word": "がいこくご",
+		"kanji": "外国語",
+		"translation": "främmande språk"
+	},
+	{
+		"word": "ことば",
+		"kanji": "言葉",
+		"translation": "ord"
+	},
+	{
+		"word": "ぞう",
+		"kanji": "象",
+		"translation": "elefant"
+	},
+	{
+		"word": "ぶっか",
+		"kanji": "物価",
+		"translation": "pris för varor"
+	},
+	{
+		"word": "ぶんぽう",
+		"kanji": "文法",
+		"translation": "grammatik"
+	},
+	{
+		"word": "ぼしゅう",
+		"kanji": "募集",
+		"translation": "rekrytering"
+	},
+	{
+		"word": "やくそく",
+		"kanji": "約束",
+		"translation": "löfte"
+	},
+	{
+		"word": "うれしい",
+		"kanji": "嬉しい",
+		"translation": "glad"
+	},
+	{
+		"word": "かなしい",
+		"kanji": "悲しい",
+		"translation": "ledsen"
+	},
+	{
+		"word": "からい",
+		"kanji": "辛い",
+		"translation": "stark (smak), hård"
+	},
+	{
+		"word": "きびしい",
+		"kanji": "厳しい",
+		"translation": "hård, sträng"
+	},
+	{
+		"word": "ちかい",
+		"kanji": "近い",
+		"translation": "nära"
+	},
+	{
+		"word": "いろいろだ",
+		"translation": "varierande"
+	},
+	{
+		"word": "しあわせだ",
+		"kanji": "幸せだ",
+		"translation": "lycklig"
+	},
+	{
+		"word": "だめだ",
+		"translation": "dålig, det är över"
+	},
+	{
+		"word": "かす",
+		"kanji": "貸す",
+		"translation": "att låna ut"
+	},
+	{
+		"word": "がんばる",
+		"kanji": "がんばる",
+		"translation": "att kämpa på"
+	},
+	{
+		"word": "なく",
+		"kanji": "泣く",
+		"translation": "att gråta"
+	},
+	{
+		"word": "まもる",
+		"kanji": "守る",
+		"translation": "att hålla, försvara"
+	},
+	{
+		"word": "いらっしゃる",
+		"translation": "att finna (artig)"
+	},
+	{
+		"word": "じつは",
+		"kanji": "実は",
+		"translation": "verkligen, i själva verket"
+	},
+	{
+		"word": "ぜんぶ",
+		"kanji": "全部",
+		"translation": "alltihop"
+	},
+	{
+		"word": "~ともうします",
+		"kanji": "申します",
+		"translation": "Jag heter (artig)"
 	}
 ]
