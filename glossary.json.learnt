@@ -127,5 +127,39 @@
 		"word": "わるい",
 		"kanji": "悪い",
 		"translation": "dålig"
-	}
+	},
+	{
+		"word": "ねむい",
+		"kanji": "眠い",
+		"translation": "sömnig"
+	},
+	{
+		"word": "かのじょ",
+		"kanji": "彼女",
+		"translation": "flickvän"
+	},
+	{
+		"word": "かれ",
+		"kanji": "彼",
+		"translation": "pojkvän"
+	},
+	{
+		"word": "いたい",
+		"kanji": "痛い",
+		"translation": "gör ont"
+	},
+	{
+		"word": "わかれる",
+		"kanji": "別れる",
+		"translation": "att separera"
+	},
+	{
+		"word": "おじいさん",
+		"translation": "farfar/morfar"
+	},
+	{
+		"word": "ぞう",
+		"kanji": "象",
+		"translation": "elefant"
+	},
 ]

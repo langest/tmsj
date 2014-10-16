@@ -60,11 +60,6 @@
 		"translation": "sval"
 	},
 	{
-		"word": "ねむい",
-		"kanji": "眠い",
-		"translation": "sömnig"
-	},
-	{
 		"word": "かんたんだ",
 		"kanji": "簡単だ",
 		"translation": "enkel"
@@ -199,16 +194,6 @@
 		"translation": "förkylning"
 	},
 	{
-		"word": "かのじょ",
-		"kanji": "彼女",
-		"translation": "flickvän"
-	},
-	{
-		"word": "かれ",
-		"kanji": "彼",
-		"translation": "pojkvän"
-	},
-	{
 		"word": "くもり",
 		"kanji": "曇り",
 		"translation": "molnig"
@@ -244,11 +229,6 @@
 		"translation": "söt"
 	},
 	{
-		"word": "いたい",
-		"kanji": "痛い",
-		"translation": "gör ont"
-	},
-	{
 		"word": "おおい",
 		"kanji": "多い",
 		"translation": "mycket/många"
@@ -278,11 +258,6 @@
 		"translation": "att hosta"
 	},
 	{
-		"word": "わかれる",
-		"kanji": "別れる",
-		"translation": "att separera"
-	},
-	{
 		"word": "いつも",
 		"translation": "alltid"
 	},
@@ -306,10 +281,6 @@
 		"translation": "för första gången"
 	},
 	{
-		"word": "おじいさん",
-		"translation": "farfar/morfar"
-	},
-	{
 		"word": "おたく",
 		"kanji": "お宅",
 		"translation": "(ditt) hem"
@@ -328,11 +299,6 @@
 		"word": "ことば",
 		"kanji": "言葉",
 		"translation": "ord"
-	},
-	{
-		"word": "ぞう",
-		"kanji": "象",
-		"translation": "elefant"
 	},
 	{
 		"word": "ぶっか",
