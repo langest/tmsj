@@ -66,5 +66,91 @@
         "translation": [
             "色: いろ - color"
         ]
+    },
+    {
+        "kanji": "物",
+        "pronunciation": [
+            "もの"
+        ],
+        "translation": [
+            "食べ物: たべもの - fooda",
+						"飲み物: のみもの - drink",
+						"物: もの - thing(s)",
+						"買い物: かいもの - shopping"
+        ]
+    },
+    {
+        "kanji": "鳥",
+        "pronunciation": [
+            "とり"
+        ],
+        "translation": [
+            "鳥: とり - bird"
+        ]
+    },
+    {
+        "kanji": "料",
+        "pronunciation": [
+            "りょう"
+        ],
+        "translation": [
+            "料理: りょうり - cooking"
+        ]
+    },
+    {
+        "kanji": "理",
+        "pronunciation": [
+            "り"
+        ],
+        "translation": [
+            "料理: りょうり - matlagning"
+        ]
+    },
+    {
+        "kanji": "特",
+        "pronunciation": [
+            "とく"
+        ],
+        "translation": [
+            "特に: とくに - especially"
+        ]
+    },
+    {
+        "kanji": "安",
+        "pronunciation": [
+            "やす"
+        ],
+        "translation": [
+            "安い: やすい - cheap"
+        ]
+    },
+    {
+        "kanji": "飯",
+        "pronunciation": [
+            "はん"
+        ],
+        "translation": [
+            "ご飯: ごはん - rice; meal",
+						"朝ごはん: あさごはん - breakfast"
+        ]
+    },
+    {
+        "kanji": "肉",
+        "pronunciation": [
+            "にく"
+        ],
+        "translation": [
+            "肉: にく - meat"
+        ]
+    },
+    {
+        "kanji": "悪",
+        "pronunciation": [
+            "わる"
+        ],
+        "translation": [
+            "悪い: わるい - bad"
+						"気分が悪い: きぶんがわるい - to feel sick"
+        ]
     }
 ]
