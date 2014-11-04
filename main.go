@@ -21,6 +21,7 @@ type glossMap []glossary
 
 type kanji struct {
 	Kanji         string   `json:kanji`
+	Meaning       string   `json:meaning`
 	Pronunciation []string `json:pronunciation`
 	Translation   []string `json:translation`
 }
@@ -138,6 +139,7 @@ func printForConky(conkyRoot string, kMap kanjiMap, gMap glossMap) error {
 	kEntry := kMap[rnd.Intn(len(kMap))]
 	if kEntry.Kanji != "" {
 		fmt.Fprintf(kanjiW, "%s\n", kEntry.Kanji)
+		fmt.Fprintf(kanjiFactW, "Meaning\n%s\n\n", kEntry.Meaning)
 
 		if len(kEntry.Pronunciation) > 0 {
 			fmt.Fprintf(kanjiFactW, "Pronunciations\n")
