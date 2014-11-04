@@ -1,6 +1,7 @@
 [
     {
         "kanji": "働",
+				"meaning": "to work",
         "pronunciation": [
             "はたら"
         ],
@@ -10,6 +11,7 @@
     },
     {
         "kanji": "連",
+				"meaning": "to link",
         "pronunciation": [
             "つ"
         ],
@@ -19,6 +21,7 @@
     },
     {
         "kanji": "別",
+				"meaning": "to separate",
         "pronunciation": [
             "わか",
             "べつ"
@@ -30,6 +33,7 @@
     },
     {
         "kanji": "度",
+				"meaning": "time; degrees",
         "pronunciation": [
             "ど"
         ],
@@ -40,6 +44,7 @@
     },
     {
         "kanji": "赤",
+				"meaning": "red",
         "pronunciation": [
             "あか"
         ],
@@ -50,6 +55,7 @@
     },
     {
         "kanji": "青",
+				"meaning": "blue",
         "pronunciation": [
             "あお"
         ],
@@ -60,6 +66,7 @@
     },
     {
         "kanji": "色",
+				"meaning": "color",
         "pronunciation": [
             "いろ"
         ],
@@ -69,6 +76,7 @@
     },
     {
         "kanji": "物",
+				"meaning": "thing",
         "pronunciation": [
             "もの"
         ],
@@ -81,6 +89,7 @@
     },
     {
         "kanji": "鳥",
+				"meaning": "bird",
         "pronunciation": [
             "とり"
         ],
@@ -90,6 +99,7 @@
     },
     {
         "kanji": "料",
+				"meaning": "ingredients; fare",
         "pronunciation": [
             "りょう"
         ],
@@ -99,6 +109,7 @@
     },
     {
         "kanji": "理",
+				"meaning": "reason",
         "pronunciation": [
             "り"
         ],
@@ -108,6 +119,7 @@
     },
     {
         "kanji": "特",
+				"meaning": "special",
         "pronunciation": [
             "とく"
         ],
@@ -117,6 +129,7 @@
     },
     {
         "kanji": "安",
+				"meaning": "cheap; ease",
         "pronunciation": [
             "やす"
         ],
@@ -126,6 +139,7 @@
     },
     {
         "kanji": "飯",
+				"meaning": "food; cooked rice",
         "pronunciation": [
             "はん"
         ],
@@ -136,6 +150,7 @@
     },
     {
         "kanji": "肉",
+				"meaning": "meat",
         "pronunciation": [
             "にく"
         ],
@@ -145,12 +160,88 @@
     },
     {
         "kanji": "悪",
+				"meaning": "bad; wrong",
         "pronunciation": [
             "わる"
         ],
         "translation": [
-            "悪い: わるい - bad"
+            "悪い: わるい - bad",
 						"気分が悪い: きぶんがわるい - to feel sick"
+        ]
+    },
+    {
+        "kanji": "体",
+				"meaning": "body",
+        "pronunciation": [
+            "からだ"
+        ],
+        "translation": [
+            "体: からだ - body"
+        ]
+    },
+    {
+        "kanji": "空",
+				"meaning": "sky; empty",
+        "pronunciation": [
+            "空くう"
+        ],
+        "translation": [
+            "空港: くうこう - airport",
+						"空気: くうき - air"
+        ]
+    },
+    {
+        "kanji": "港",
+				"meaning": "port; harbor",
+        "pronunciation": [
+            "こう"
+        ],
+        "translation": [
+            "空港: くうこう - airport"
+        ]
+    },
+    {
+        "kanji": "着",
+				"meaning": "to reach; to wear",
+        "pronunciation": [
+            "つ",
+						"き"
+        ],
+        "translation": [
+            "着く: つく - to arrive",
+						"着る: きる - to wear",
+						"着もの: きもの - kimono"
+        ]
+    },
+    {
+        "kanji": "同",
+				"meaning": "same",
+        "pronunciation": [
+            "おな"
+        ],
+        "translation": [
+            "同じ: おなじ - the same"
+        ]
+    },
+    {
+        "kanji": "海",
+				"meaning": "sea",
+        "pronunciation": [
+            "うみ"
+        ],
+        "translation": [
+            "海: うみ - sea"
+        ]
+    },
+    {
+        "kanji": "昼",
+				"meaning": "noon; daytime",
+        "pronunciation": [
+            "ひる"
+        ],
+        "translation": [
+            "昼: ひる - noon; daytime",
+						"昼ご飯: ひるごはん - lunch"
         ]
     }
 ]
