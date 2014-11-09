@@ -162,4 +162,67 @@
 		"kanji": "象",
 		"translation": "elefant"
 	},
+	{
+		"word": "ちかてつ",
+		"kanji": "地下鉄",
+		"translation": "tunnelbana"
+	},
+	{
+		"word": "しゃちょう",
+		"kanji": "社長",
+		"translation": "VD"
+	},
+	{
+		"word": "うそをつく",
+		"translation": "att ljuga"
+	},
+	{
+		"word": "さぼる",
+		"kanji": "サボる",
+		"translation": "att skolka"
+	},
+	{
+		"word": "かぜ",
+		"kanji": "風邪",
+		"translation": "förkylning"
+	},
+	{
+		"word": "かぜをひく",
+		"kanji": "風邪を引く",
+		"translation": "att bli förkyld"
+	},
+	{
+		"word": "くもり",
+		"kanji": "曇り",
+		"translation": "molnig"
+	},
+	{
+		"word": "もの",
+		"kanji": "物",
+		"translation": "ting (konkret)"
+	},
+	{
+		"word": "がいこくご",
+		"kanji": "外国語",
+		"translation": "främmande språk"
+	},
+	{
+		"word": "だめだ",
+		"translation": "dålig, det är över"
+	},
+	{
+		"word": "がんばる",
+		"kanji": "がんばる",
+		"translation": "att kämpa på"
+	},
+	{
+		"word": "はは",
+		"kanji": "母",
+		"translation": "min mor"
+	},
+	{
+		"word": "おなじ",
+		"kanji": "同じ",
+		"translation": "samma"
+	},
 ]

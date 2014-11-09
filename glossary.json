@@ -20,11 +20,6 @@
 		"translation": "vardagsliv"
 	},
 	{
-		"word": "ちかてつ",
-		"kanji": "地下鉄",
-		"translation": "tunnelbana"
-	},
-	{
 		"word": "はる",
 		"kanji": "春",
 		"translation": "vår"
@@ -115,11 +110,6 @@
 		"translation": "den här terminen"
 	},
 	{
-		"word": "しゃちょう",
-		"kanji": "社長",
-		"translation": "VD"
-	},
-	{
 		"word": "じゅぎょう",
 		"kanji": "授業",
 		"translation": "lektion"
@@ -133,15 +123,6 @@
 		"word": "ゆめ",
 		"kanji": "夢",
 		"translation": "dröm"
-	},
-	{
-		"word": "うそをつく",
-		"translation": "att ljuga"
-	},
-	{
-		"word": "さぼる",
-		"kanji": "サボる",
-		"translation": "att skolka"
 	},
 	{
 		"word": "かう",
@@ -189,16 +170,6 @@
 		"translation": "betydelse"
 	},
 	{
-		"word": "かぜ",
-		"kanji": "風邪",
-		"translation": "förkylning"
-	},
-	{
-		"word": "くもり",
-		"kanji": "曇り",
-		"translation": "molnig"
-	},
-	{
 		"word": "せいじ",
 		"kanji": "政治",
 		"translation": "politik"
@@ -212,11 +183,6 @@
 		"word": "ふつかよい",
 		"kanji": "二日酔い",
 		"translation": "bakfull"
-	},
-	{
-		"word": "もの",
-		"kanji": "物",
-		"translation": "ting (konkret)"
 	},
 	{
 		"word": "ようじ",
@@ -246,11 +212,6 @@
 	{
 		"word": "なくす",
 		"translation": "att tappa bort"
-	},
-	{
-		"word": "かぜをひく",
-		"kanji": "風邪を引く",
-		"translation": "att bli förkyld"
 	},
 	{
 		"word": "せきがでる",
@@ -289,11 +250,6 @@
 		"word": "おとな",
 		"kanji": "大人",
 		"translation": "vuxen"
-	},
-	{
-		"word": "がいこくご",
-		"kanji": "外国語",
-		"translation": "främmande språk"
 	},
 	{
 		"word": "ことば",
@@ -355,18 +311,9 @@
 		"translation": "lycklig"
 	},
 	{
-		"word": "だめだ",
-		"translation": "dålig, det är över"
-	},
-	{
 		"word": "かす",
 		"kanji": "貸す",
 		"translation": "att låna ut"
-	},
-	{
-		"word": "がんばる",
-		"kanji": "がんばる",
-		"translation": "att kämpa på"
 	},
 	{
 		"word": "なく",
@@ -432,11 +379,6 @@
 		"translation": "gosedjur"
 	},
 	{
-		"word": "はは",
-		"kanji": "母",
-		"translation": "min mor"
-	},
-	{
 		"word": "りょうしん",
 		"kanji": "両親",
 		"translation": "mina föräldrar"
@@ -476,11 +418,6 @@
 	{
 		"word": "できる",
 		"translation": "att kunna göra"
-	},
-	{
-		"word": "おなじ",
-		"kanji": "同じ",
-		"translation": "samma"
 	},
 	{
 		"word": "きょねん",
