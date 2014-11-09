@@ -396,5 +396,112 @@
 		"word": "~ともうします",
 		"kanji": "申します",
 		"translation": "Jag heter (artig)"
+	},
+	{
+		"word": "あに",
+		"kanji": "兄",
+		"translation": "min storebror"
+	},
+	{
+		"word": "おおやさん",
+		"kanji": "大家さん",
+		"translation": "hyresvärd"
+	},
+	{
+		"word": "おかえし",
+		"kanji": "お返し",
+		"translation": "present som ges tillbaka"
+	},
+	{
+		"word": "おくさん",
+		"kanji": "奥さん",
+		"translation": "någon annans  fru"
+	},
+	{
+		"word": "ごしゅじん",
+		"kanji": "ごしゅじん",
+		"translation": "någon annans man"
+	},
+	{
+		"word": "さら",
+		"kanji": "皿",
+		"translation": "tallrik"
+	},
+	{
+		"word": "ぬいぐるみ",
+		"translation": "gosedjur"
+	},
+	{
+		"word": "はは",
+		"kanji": "母",
+		"translation": "min mor"
+	},
+	{
+		"word": "りょうしん",
+		"kanji": "両親",
+		"translation": "mina föräldrar"
+	},
+	{
+		"word": "りれきしょ",
+		"kanji": "履歴書",
+		"translation": "CV"
+	},
+	{
+		"word": "ほしい",
+		"kanji": "欲しい",
+		"translation": "Jag vill ha"
+	},
+	{
+		"word": "けちだ",
+		"translation": "snål"
+	},
+	{
+		"word": "おくる",
+		"kanji": "送る",
+		"translation": "att skicka"
+	},
+	{
+		"word": "にあう",
+		"kanji": "似合う",
+		"translation": "att passa bra"
+	},
+	{
+		"word": "あげる",
+		"translation": "att ge"
+	},
+	{
+		"word": "くれる",
+		"translation": "någon ger mig något"
+	},
+	{
+		"word": "できる",
+		"translation": "att kunna göra"
+	},
+	{
+		"word": "おなじ",
+		"kanji": "同じ",
+		"translation": "samma"
+	},
+	{
+		"word": "きょねん",
+		"kanji": "去年",
+		"translation": "fjol"
+	},
+	{
+		"word": "こんな~",
+		"translation": "sådan sak som den här"
+	},
+	{
+		"word": "~たち",
+		"kanji": "達",
+		"translation": "ändelse för flera personer"
+	},
+	{
+		"word": "ちょうど",
+		"translation": "precis"
+	},
+	{
+		"word": "よく",
+		"translation": "väl"
 	}
 ]
