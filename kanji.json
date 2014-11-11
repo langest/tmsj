@@ -1,247 +1,69 @@
 [
     {
-        "kanji": "働",
-				"meaning": "to work",
+        "kanji": "彼",
+				"meaning": "he",
         "pronunciation": [
-            "はたら"
+            "かれ",
+						"かのじょ"
         ],
         "translation": [
-            "働く: はたらく - to work"
+            "彼: かれ - he; boyfriend",
+						"彼女: かのじょ she; girlfriend"
         ]
     },
     {
-        "kanji": "連",
-				"meaning": "to link",
+        "kanji": "代",
+				"meaning": "age; replace",
         "pronunciation": [
-            "つ"
+            "だい"
         ],
         "translation": [
-            "連れて帰る: つれてかえる - to bring (a person) back"
+            "時代: じだい - age; era"
         ]
     },
     {
-        "kanji": "別",
-				"meaning": "to separate",
+        "kanji": "留",
+				"meaning": "to stay; to keep",
         "pronunciation": [
-            "わか",
-            "べつ"
+            "りゅう"
         ],
         "translation": [
-            "別れる: わかれる - to separate",
-            "別に: べつに - not in particular"
+            "留学生: りゅうがくせい - foreign students",
+						"留学する: りゅうがくする - to study abroad"
         ]
     },
     {
-        "kanji": "度",
-				"meaning": "time; degrees",
+        "kanji": "族",
+				"meaning": "family; tribe",
         "pronunciation": [
-            "ど"
+            "ぞく"
         ],
         "translation": [
-            "一度: いちど - once",
-            "今度: こんど - near future"
+            "家族: かぞく - family"
         ]
     },
     {
-        "kanji": "赤",
-				"meaning": "red",
+        "kanji": "親",
+				"meaning": "parent; intimacy",
         "pronunciation": [
-            "あか"
+            "おや",
+						"しん"
         ],
         "translation": [
-            "赤い: あかい - red",
-            "赤: あか - red color"
+            "父親: ちちおや - father",
+						"親切な: しんせつな - kind"
         ]
     },
     {
-        "kanji": "青",
-				"meaning": "blue",
+        "kanji": "切",
+				"meaning": "to cut",
         "pronunciation": [
-            "あお"
-        ],
-        "translation": [
-            "青い: あおい - blue",
-            "青: あお - blue color"
-        ]
-    },
-    {
-        "kanji": "色",
-				"meaning": "color",
-        "pronunciation": [
-            "いろ"
-        ],
-        "translation": [
-            "色: いろ - color"
-        ]
-    },
-    {
-        "kanji": "物",
-				"meaning": "thing",
-        "pronunciation": [
-            "もの"
-        ],
-        "translation": [
-            "食べ物: たべもの - fooda",
-						"飲み物: のみもの - drink",
-						"物: もの - thing(s)",
-						"買い物: かいもの - shopping"
-        ]
-    },
-    {
-        "kanji": "鳥",
-				"meaning": "bird",
-        "pronunciation": [
-            "とり"
-        ],
-        "translation": [
-            "鳥: とり - bird"
-        ]
-    },
-    {
-        "kanji": "料",
-				"meaning": "ingredients; fare",
-        "pronunciation": [
-            "りょう"
-        ],
-        "translation": [
-            "料理: りょうり - cooking"
-        ]
-    },
-    {
-        "kanji": "理",
-				"meaning": "reason",
-        "pronunciation": [
-            "り"
-        ],
-        "translation": [
-            "料理: りょうり - matlagning"
-        ]
-    },
-    {
-        "kanji": "特",
-				"meaning": "special",
-        "pronunciation": [
-            "とく"
-        ],
-        "translation": [
-            "特に: とくに - especially"
-        ]
-    },
-    {
-        "kanji": "安",
-				"meaning": "cheap; ease",
-        "pronunciation": [
-            "やす"
-        ],
-        "translation": [
-            "安い: やすい - cheap"
-        ]
-    },
-    {
-        "kanji": "飯",
-				"meaning": "food; cooked rice",
-        "pronunciation": [
-            "はん"
-        ],
-        "translation": [
-            "ご飯: ごはん - rice; meal",
-						"朝ごはん: あさごはん - breakfast"
-        ]
-    },
-    {
-        "kanji": "肉",
-				"meaning": "meat",
-        "pronunciation": [
-            "にく"
-        ],
-        "translation": [
-            "肉: にく - meat"
-        ]
-    },
-    {
-        "kanji": "悪",
-				"meaning": "bad; wrong",
-        "pronunciation": [
-            "わる"
-        ],
-        "translation": [
-            "悪い: わるい - bad",
-						"気分が悪い: きぶんがわるい - to feel sick"
-        ]
-    },
-    {
-        "kanji": "体",
-				"meaning": "body",
-        "pronunciation": [
-            "からだ"
-        ],
-        "translation": [
-            "体: からだ - body"
-        ]
-    },
-    {
-        "kanji": "空",
-				"meaning": "sky; empty",
-        "pronunciation": [
-            "空くう"
-        ],
-        "translation": [
-            "空港: くうこう - airport",
-						"空気: くうき - air"
-        ]
-    },
-    {
-        "kanji": "港",
-				"meaning": "port; harbor",
-        "pronunciation": [
-            "こう"
-        ],
-        "translation": [
-            "空港: くうこう - airport"
-        ]
-    },
-    {
-        "kanji": "着",
-				"meaning": "to reach; to wear",
-        "pronunciation": [
-            "つ",
+            "せつ",
 						"き"
         ],
         "translation": [
-            "着く: つく - to arrive",
-						"着る: きる - to wear",
-						"着もの: きもの - kimono"
-        ]
-    },
-    {
-        "kanji": "同",
-				"meaning": "same",
-        "pronunciation": [
-            "おな"
-        ],
-        "translation": [
-            "同じ: おなじ - the same"
-        ]
-    },
-    {
-        "kanji": "海",
-				"meaning": "sea",
-        "pronunciation": [
-            "うみ"
-        ],
-        "translation": [
-            "海: うみ - sea"
-        ]
-    },
-    {
-        "kanji": "昼",
-				"meaning": "noon; daytime",
-        "pronunciation": [
-            "ひる"
-        ],
-        "translation": [
-            "昼: ひる - noon; daytime",
-						"昼ご飯: ひるごはん - lunch"
+            "親切な: しんせつな - kind",
+						"切る: きる - to cut"
         ]
     }
 ]
