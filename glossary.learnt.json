@@ -225,4 +225,33 @@
 		"kanji": "同じ",
 		"translation": "samma"
 	},
+	{
+		"word": "らいがっき",
+		"kanji": "来学期",
+		"translation": "nästa termin"
+	},
+	{
+		"word": "こんがっき",
+		"kanji": "今学期",
+		"translation": "den här terminen"
+	},
+	{
+		"word": "かう",
+		"kanji": "飼う",
+		"translation": "att ha husdjur"
+	},
+	{
+		"word": "もっと",
+		"translation": "mer"
+	},
+	{
+		"word": "おおい",
+		"kanji": "多い",
+		"translation": "mycket/många"
+	},
+	{
+		"word": "のどがかわく",
+		"kanji": "のどが渇く",
+		"translation": "att bli törstig"
+	}
 ]

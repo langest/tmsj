@@ -30,11 +30,6 @@
 		"translation": "bokning"
 	},
 	{
-		"word": "らいがっき",
-		"kanji": "来学期",
-		"translation": "nästa termin"
-	},
-	{
 		"word": "れんしゅう",
 		"kanji": "練習",
 		"translation": "övning"
@@ -105,11 +100,6 @@
 		"translation": "leksak"
 	},
 	{
-		"word": "こんがっき",
-		"kanji": "今学期",
-		"translation": "den här terminen"
-	},
-	{
 		"word": "じゅぎょう",
 		"kanji": "授業",
 		"translation": "lektion"
@@ -123,11 +113,6 @@
 		"word": "ゆめ",
 		"kanji": "夢",
 		"translation": "dröm"
-	},
-	{
-		"word": "かう",
-		"kanji": "飼う",
-		"translation": "att ha husdjur"
 	},
 	{
 		"word": "とる",
@@ -161,10 +146,6 @@
 		"translation": "det var länge sedan"
 	},
 	{
-		"word": "もっと",
-		"translation": "mer"
-	},
-	{
 		"word": "いみ",
 		"kanji": "意味",
 		"translation": "betydelse"
@@ -195,19 +176,9 @@
 		"translation": "söt"
 	},
 	{
-		"word": "おおい",
-		"kanji": "多い",
-		"translation": "mycket/många"
-	},
-	{
 		"word": "すてきだ",
 		"kanji": "素敵だ",
 		"translation": "fantastisk"
-	},
-	{
-		"word": "のどがかわく",
-		"kanji": "のどが渇く",
-		"translation": "att bli törstig"
 	},
 	{
 		"word": "なくす",
