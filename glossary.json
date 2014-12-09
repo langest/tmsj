@@ -391,5 +391,144 @@
 	{
 		"word": "よく",
 		"translation": "väl"
+	},
+	{
+		"word": "え",
+		"kanji": "絵",
+		"translation": "målning"
+	},
+	{
+		"word": "えいがかん",
+		"kanji": "映画館",
+		"translation": "biograf"
+	},
+	{
+		"word": "かんこう",
+		"kanji": "観光",
+		"translation": "turisttur"
+	},
+	{
+		"word": "じしん",
+		"kanji": "地震",
+		"translation": "jordbävning"
+	},
+	{
+		"word": "しめきり",
+		"kanji": "締め切り",
+		"translation": "deadline"
+	},
+	{
+		"word": "しゅうかん",
+		"kanji": "習慣",
+		"translation": "sedvänja"
+	},
+	{
+		"word": "そつぎょうしき",
+		"kanji": "卒業式",
+		"translation": "diplomceremoni"
+	},
+	{
+		"word": "ちず",
+		"kanji": "地図",
+		"translation": "karta"
+	},
+	{
+		"word": "でんち",
+		"kanji": "電池",
+		"translation": "batteri"
+	},
+	{
+		"word": "はっぴょう",
+		"kanji": "発表",
+		"translation": "presentation"
+	},
+	{
+		"word": "よてい",
+		"kanji": "予定",
+		"translation": "plan, avsikt"
+	},
+	{
+		"word": "わりびきけん",
+		"kanji": "割引券",
+		"translation": "rabattkupong"
+	},
+	{
+		"word": "ひろい",
+		"kanji": "広い",
+		"translation": "bred"
+	},
+	{
+		"word": "うる",
+		"kanji": "売る",
+		"translation": "att sälja"
+	},
+	{
+		"word": "かく",
+		"kanji": "描く/画く",
+		"translation": "att måla, rita"
+	},
+	{
+		"word": "さがす",
+		"kanji": "探す/捜す",
+		"translation": "att leta efter"
+	},
+	{
+		"word": "さそう",
+		"kanji": "誘う",
+		"translation": "att bjuda ut, "
+	},
+	{
+		"word": "つきあう",
+		"kanji": "付き合う",
+		"translation": "att sällskapa"
+	}
+	},
+	{
+		"word": "つく",
+		"kanji": "着く",
+		"translation": "att anlända"
+	},
+	{
+		"word": "きをつける",
+		"kanji": "気をつける",
+		"translation": "att vara försiktig"
+	},
+	{
+		"word": "しらべる",
+		"kanji": "調べる",
+		"translation": "att undersöka"
+	},
+	{
+		"word": "すてる",
+		"kanji": "捨てる",
+		"translation": "att kasta bort"
+	},
+	{
+		"word": "みえる",
+		"kanji": "見える",
+		"translation": "att kunna se"
+	},
+	{
+		"word": "いちにちじゅう",
+		"kanji": "一日中",
+		"translation": "hela dagen"
+	},
+	{
+		"word": "~けど",
+		"translation": "men"
+	},
+	{
+		"word": "さいきん",
+		"kanji": "最近",
+		"translation": "nyligen"
+	},
+	{
+		"word": "~について",
+		"translation": "om, angående"
+	},
+	{
+		"word": "もういちど",
+		"kanji": "もう一度",
+		"translation": "en gång till"
 	}
 ]
