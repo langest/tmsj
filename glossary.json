@@ -30,11 +30,6 @@
 		"translation": "bokning"
 	},
 	{
-		"word": "れんしゅう",
-		"kanji": "練習",
-		"translation": "övning"
-	},
-	{
 		"word": "おそい",
 		"kanji": "遅い",
 		"translation": "sen"
@@ -156,11 +151,6 @@
 		"translation": "politik"
 	},
 	{
-		"word": "せいせき",
-		"kanji": "成績",
-		"translation": "betyg"
-	},
-	{
 		"word": "ふつかよい",
 		"kanji": "二日酔い",
 		"translation": "bakfull"
@@ -246,16 +236,6 @@
 		"word": "やくそく",
 		"kanji": "約束",
 		"translation": "löfte"
-	},
-	{
-		"word": "うれしい",
-		"kanji": "嬉しい",
-		"translation": "glad"
-	},
-	{
-		"word": "かなしい",
-		"kanji": "悲しい",
-		"translation": "ledsen"
 	},
 	{
 		"word": "からい",

@@ -253,5 +253,25 @@
 		"word": "のどがかわく",
 		"kanji": "のどが渇く",
 		"translation": "att bli törstig"
-	}
+	},
+	{
+		"word": "れんしゅう",
+		"kanji": "練習",
+		"translation": "övning"
+	},
+	{
+		"word": "せいせき",
+		"kanji": "成績",
+		"translation": "betyg"
+	},
+	{
+		"word": "うれしい",
+		"kanji": "嬉しい",
+		"translation": "glad"
+	},
+	{
+		"word": "かなしい",
+		"kanji": "悲しい",
+		"translation": "ledsen"
+	},
 ]
