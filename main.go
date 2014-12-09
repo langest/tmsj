@@ -109,7 +109,20 @@ func printOneRandom(kMap kanjiMap, gMap glossMap) {
 		}
 	}
 	gEntry := gMap[rnd.Intn(len(gMap))]
-	fmt.Println(gEntry)
+
+	if gEntry.Word != "" {
+		fmt.Println("-----Glossary-----")
+		fmt.Println("-------Word-------")
+		fmt.Println(gEntry.Word)
+		if gEntry.Kanji != "" {
+			fmt.Println("-------Kanji------")
+			fmt.Println(gEntry.Kanji)
+		}
+		if gEntry.Translation != "" {
+			fmt.Println("----Translation----")
+			fmt.Println(gEntry.Translation)
+		}
+	}
 	fmt.Println()
 }
 
